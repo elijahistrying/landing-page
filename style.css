@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 212, 133)
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    padding: 0px 20%;
+    background: rgb(63, 63, 80);
+    color: white;
+    
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.header-logo {
+    font-weight: bold;
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+
+    padding: 0px 20px;    
+}
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
+
