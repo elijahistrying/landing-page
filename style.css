@@ -90,10 +90,6 @@ ul {
 .left > button {
     margin: 20px 0 0 0;
     padding: 10px;
-
-    height: 50px;
-    width: 250px;
-
     background-color: white;
 }
 
@@ -154,62 +150,57 @@ ul {
 
 
 .signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;  
     background:rgb(255, 212, 133);
     padding: 5% 15%;
-    color: white;
 }
 
 .signup-container {
     flex: 1;
-    background:rgb(62, 39, 155);
+    background:rgb(51, 44, 79);
     display: flex;
     margin: 0;
-    padding: 3%;
+    padding: 3%
 }
 
-.signup-container > .left, . .signup-container > .right {
+
+.left2, .right2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 
-    background:rgb(62, 39, 155);
 }
 
-.left {
+.left2, .right2 {
     flex: 1;
     justify-content: center;
 }
 
-.left > h3, .left > p {
-    margin: 0;
-}
-
-.right {
-    justify-content: center;
+.right2 {
     align-items: center;
 }
 
-.right > button {
-    width: 200px;
-    height: 50px;
+.left2 > h3, .left2 > p {
+    margin: 0;
 }
 
 
-
+.right2 > button {
+    width: 200px;
+    height: 100px;
+}
 
 /* footer */
 
 .footer {
+    color: white;
     display: flex;
     flex-direction: column;
 
+    align-items: center;
+    justify-content: center;
+
     padding: 1% 20%;
     background:rgb(94, 94, 94)
-
-    
 }
 
 
