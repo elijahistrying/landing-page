@@ -6,7 +6,7 @@ body {
     margin-bottom: 0;
     margin-right: 0;
 
-    color: white;
+    
 }
 
 a {
@@ -27,6 +27,10 @@ ul {
 }
 
 /* header */
+
+.header, .intro, .info, .quote {
+    color: white;
+}
 
 .header {
     position: fixed;
@@ -65,7 +69,6 @@ ul {
     padding: 10% 8%;
 
     background: rgb(45, 45, 85);
-    color: white;
 }
 
 .left, .right {
@@ -84,11 +87,22 @@ ul {
     margin: 15px 0px 0px 0px;
 }
 
+.left > button {
+    margin: 20px 0 0 0;
+    padding: 10px;
+
+    height: 50px;
+    width: 250px;
+
+    background-color: white;
+}
+
 /* info section */
 
 .info {
     display: flex;
     flex-direction: column;
+
     padding: 1% 10%;
     background:rgb(255, 212, 133)
 }
@@ -103,16 +117,100 @@ ul {
 .images {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
 .image {
     background: rgb(63, 63, 80);
+    
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5% 20%;
+    background: rgb(45, 45, 85);
+    
+    
+}
+
+.quote :nth-child(1) {
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote :nth-child(2) {
+    margin: 0;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* signup */
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 212, 133);
+    padding: 5% 15%;
+    color: white;
+}
+
+.signup-container {
+    flex: 1;
+    background:rgb(62, 39, 155);
+    display: flex;
+    margin: 0;
+    padding: 3%;
+}
+
+.signup-container > .left, . .signup-container > .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background:rgb(62, 39, 155);
+}
+
+.left {
+    flex: 1;
+    justify-content: center;
+}
+
+.left > h3, .left > p {
+    margin: 0;
+}
+
+.right {
+    justify-content: center;
+    align-items: center;
+}
+
+.right > button {
+    width: 200px;
+    height: 50px;
 }
 
 
 
 
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1% 20%;
+    background:rgb(94, 94, 94)
+
+    
+}
 
 
 
